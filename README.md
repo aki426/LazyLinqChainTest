@@ -1,0 +1,2 @@
+# LazyLinqChainTest
+C#のLinqでIEnumerableの遅延評価が遅くなるケースについてのテスト。
