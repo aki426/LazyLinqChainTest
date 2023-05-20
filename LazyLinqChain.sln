@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyLinqChain", "LazyLinqChain\LazyLinqChain.csproj", "{4CA33471-661B-428A-BBEE-343EA0384F15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyLinqChainTests", "LazyLinqChainTests\LazyLinqChainTests.csproj", "{4AA77E75-2DB5-41BF-97F8-77AC3A9AA298}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CA33471-661B-428A-BBEE-343EA0384F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA33471-661B-428A-BBEE-343EA0384F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA33471-661B-428A-BBEE-343EA0384F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA33471-661B-428A-BBEE-343EA0384F15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AA77E75-2DB5-41BF-97F8-77AC3A9AA298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA77E75-2DB5-41BF-97F8-77AC3A9AA298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA77E75-2DB5-41BF-97F8-77AC3A9AA298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA77E75-2DB5-41BF-97F8-77AC3A9AA298}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BE26155-62B1-4A30-AF3C-BF18C9C82F0B}
+	EndGlobalSection
+EndGlobal
