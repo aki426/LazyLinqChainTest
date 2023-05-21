@@ -46,5 +46,22 @@ namespace LazyLinqChain.Logic.Tests
 			// Green
 			Assert.IsTrue(stopWatch.Elapsed.TotalSeconds < 2.0);
 		}
+
+		[TestMethod()]
+		public void LinqChainMemoized()
+		{
+			List<int> lis1 = Enumerable.Range(0, 10).ToList();
+			List<int> lis2 = Enumerable.Range(0, 10).ToList();
+
+			Stopwatch stopWatch = new Stopwatch();
+			stopWatch.Start();
+			LazyLinq.LinqChainMemoized(lis1, lis2);
+			stopWatch.Stop();
+
+			// Green
+			Assert.IsTrue(stopWatch.Elapsed.TotalSeconds < 12.0);
+			// Green
+			Assert.IsTrue(stopWatch.Elapsed.TotalSeconds < 2.0);
+		}
 	}
 }
